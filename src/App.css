@@ -1,38 +1,102 @@
+
 .App {
+ 
   text-align: center;
+  
+  background: url(name.jpg) ;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+h1 {
+  color: rgba(245, 250, 243, 0.404);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.st0 {
+  fill: none;
+}
+.st1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+.st2 {
+  font-family: "AmericanTypewriter";
+}
+.st3 {
+  font-size: 3.7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#title {
+  height: 40vh;
+  width: 100vw;
+  margin-top: 5vh;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Buttons {
+  height: 20vh;
+  margin-top: -15vh;
+}
+.Response {
+  
+  color:rgb(141, 35, 35);
+  font-family: Comic Sans MS body copy;
+}
+.selectplayer .letter{
+  display: inline-block;
+  line-height: 1em;
+
+}
+.selectplayer {
+  height: 20vh;
+  margin-top: 1vh;
+  font-family:"Corsiva";
+ margin:50%;
+  text-align: center;
+  background-image: url(demo.jpg);
+  width: 60vw;
+  height: 85px;
+  margin: 10px;
+  border: none;
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  transform-style: preserve-3d transform translateZ(-25px)
+  transition transform 0.3s;
+  
+}
+
+.gameButton {
+  font-family:"Corsiva";
+  
+  background-image: url(images.jpg);
+  width: 40vw;
+  height: 85px;
+  margin: 50px;
+  border: none;
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  transform-style: preserve-3d transform translateZ(-25px)
+  transition transform 0.3s;
+  
+}
+
+.gameButton:hover {
+  background: transparent;
   color: white;
+  font-style: italic;
+
+}
+.selectplayer:hover {
+  background: transparent;
+  color: white;
+  font-style: italic;
+
 }
 
-.App-link {
-  color: #61dafb;
+.gameButton:active {
+  border-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
